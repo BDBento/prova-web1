@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header, main, footer{
+    width: 800px;
+    margin: 10px auto;
+}
+header{
+    display: flex;
+    
+}
+
+header, footer{
+    padding: 20px 0 20px;
+  
+    border: black 20px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 52px;
+    text-shadow: gray 7px 2px ;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+.contato,
+.titulo{
+    position: relative;
+    margin: 0px 90px;
+    font-weight: bold;
+}
+
+.corpo-anuncio{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.corpo-anuncio ul{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.anuncio{
+    width: 220px;
+    margin:10px auto;
+    box-shadow: grey 2px 2px 5px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.anuncio h2{
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: rgba(128, 128, 128, 0.199) solid 0.5px;
+    padding-bottom: 15px;
+}
+.anuncio p{
+    font-size: 16px;
+}
+.anuncio img{
+    width: 100%;
+    height: 160px;
+    margin-bottom: 10px;
+}
